@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+       div {
+        text-align: center;
+       }
+       h1{
+        background-color: rgb(129, 68, 88);
+       }
+       p{
+         font-size: larger;
+         font-weight: bolder;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Quote Generator</h1>
+        <select id="categoryInput">
+            <option value="life">Life</option>
+            <option value="love">Love</option>
+            <option value="inspirational">Inspirational</option>
+            <option value="happiness">Happiness</option>
+        </select>
+        <button>Click</button>
+
+        <p id="quoteWrite"></p>  
+    </div>
+    
+    <script src="index.js"></script> 
+</body>
+</html>
